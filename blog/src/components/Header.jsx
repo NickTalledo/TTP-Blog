@@ -47,24 +47,16 @@ const Header = () => {
           } md:flex md:items-center`}
         >
           <li>
-            <a href="#" className="text-white">
-              About
-            </a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="#" className="text-white">
-              Sign-in
-            </a>
+            <Link to="/">Signup</Link>
           </li>
           <li>
-            <a href="#" className="text-white">
-              Register
-            </a>
+            <Link to="/signup">Register</Link>
           </li>
           <li>
-            <a href="#" className="text-white">
-              Contact
-            </a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </header>

@@ -32,12 +32,6 @@ ul {
   list-style: none;
 }
 
-h2,
-h3,
-a {
-  color: #ffffff;
-}
-
 a {
   text-decoration: none;
 }
@@ -222,6 +216,7 @@ button {
 
 button:hover {
   background-color: #0072eb;
+  color: white;
 }
 
 p {
@@ -236,4 +231,75 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.about-us-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-us-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.about-us-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
 }

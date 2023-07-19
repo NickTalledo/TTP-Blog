@@ -1,7 +1,11 @@
-const LoginPage = () => {
+import { Link } from "react-router-dom";
+
+const Login = () => {
   return (
     <div className="login-container">
-      <h1>Login</h1>
+      <h1>Blooger!</h1>
+      <p>A place to blog with your friends!</p>
+      <h2 className="text-black">Login</h2>
       <form>
         <div className="input-group">
           <label htmlFor="username">Username: </label>
@@ -14,10 +18,10 @@ const LoginPage = () => {
         <button type="submit">Login</button>
       </form>
       <p>
-        Don&apos;t have an account? <a href="#">Sign up</a>
+        Don&apos;t have an account? <Link to="/signup">Signup</Link>
       </p>
     </div>
   );
 };
 
-export default LoginPage;
+export default Login;
